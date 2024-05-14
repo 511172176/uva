@@ -14,11 +14,11 @@ public class uva727 {
         //sc.nextLine();
         while(n-- > 0) {
             //sc.nextLine();
-            Stack<String> st = new Stack<String>();
+            Stack<String> st = new Stack<>();
             StringBuilder s = new StringBuilder();
             boolean firstLine = true;
             while (sc.hasNextLine()) {
-                String c = sc.nextLine().trim();
+                String c = sc.nextLine();
                 /*if(c.isEmpty())
                     //break;
                     continue;*/
