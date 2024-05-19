@@ -43,7 +43,8 @@ public class uva11389 {
 			
 			System.out.println(sum);
 		}
-
+		sc.close();
 	}
+	
 
 }

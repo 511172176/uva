@@ -13,12 +13,13 @@ public class uva10814 {
 		while(n-->0)
 		{
 			BigInteger a = sc.nextBigInteger();
-			String c = sc.next();
+			sc.next();
 			BigInteger b = sc.nextBigInteger();
 			
 			BigInteger avg = a.gcd(b);
 			System.out.println(a.divide(avg) + " / " + b.divide(avg));
 		}
+		sc.close();
 	}
 
 }

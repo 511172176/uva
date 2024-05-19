@@ -1,10 +1,4 @@
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.StringTokenizer;
-import java.util.Scanner;
+import java.util.*;
  
 public class uva406a {
     public static void main(String[] args) {
@@ -18,7 +12,7 @@ public class uva406a {
             if (arr[i]) agg[i]++;
         }
  
-        while (true) {
+        while (in.hasNext()) {
             int n = in.nextInt();
             int c = in.nextInt();
             int startIndex = (agg[n] % 2 == 0) ? (agg[n] / 2) : (agg[n] / 2 + 1);
@@ -40,9 +34,11 @@ public class uva406a {
             }
             System.out.println();
             System.out.println();
+            
         }
+        in.close();
     }
- 
+
     public static class SieveOfEratosthenes {
         private boolean[] a;
  

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class uva1421 {
+public class UVA1421 {
     
 	static int maxn = 5000+5, n;
 	static double pi = Math.acos(-1.0);
@@ -53,6 +53,7 @@ public class uva1421 {
     		}
     		System.out.println(f1? "YES": "NO");
     	}
+		sc.close();
     }
     static double geta3(int x0, int x1, int y0, int y1) {
     	return (y1-y0)*1.0/(x1-x0);

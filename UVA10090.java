@@ -34,7 +34,7 @@ public class UVA10090 {
 				System.out.println(x+" "+y);
 			}
 		}
-		
+		sc.close();
 		
 	}
 	public static long[] ex(long a, long b) {

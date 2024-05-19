@@ -49,5 +49,6 @@ public class uva11093 {
             	System.out.println("Case " + (++kase) + ": Possible from station " + (begin + 1));
             }
         }
+        input.close();
     }
 }

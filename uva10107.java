@@ -1,7 +1,6 @@
 //package uva;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -40,7 +39,7 @@ public class uva10107 {
 			index++;
 			
 		}
-
+		sc.close();
 	}
 
 }

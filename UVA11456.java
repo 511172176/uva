@@ -36,5 +36,6 @@ public class UVA11456 {
 			}
 			System.out.println(ans);
 		}
+		sc.close();
 	}
 }

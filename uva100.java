@@ -19,6 +19,7 @@ public class uva100 {
             }
             System.out.println(len);
         }
+        sc.close();
     }
 
     public static int len(int n)

@@ -47,5 +47,6 @@ public class uva406 {
             System.out.println();
             System.out.println();
         }
+        in.close();
     }
 }

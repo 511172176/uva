@@ -13,6 +13,7 @@ public class UVA10104 {
 			ex(a, b, r);
 			System.out.println(r[0]+" "+r[1]+" "+r[2]);
 		}
+		sc.close();
 	}
 	public static void ex(long a, long b, long[] r) {
 		if(b==0) {

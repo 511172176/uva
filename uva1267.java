@@ -6,8 +6,10 @@ public class uva1267 {
 	static int t, n, s, k, a, b;
 	static int[] fa = new int[maxn];
 	static int[] vis = new int[maxn];
-	static ArrayList<Integer>[] graph = new ArrayList[maxn];
-	static ArrayList<Integer>[] leaf = new ArrayList[maxn];
+	@SuppressWarnings("unchecked")
+	static ArrayList<Integer>[] graph = (ArrayList<Integer>[]) new ArrayList[maxn];
+	@SuppressWarnings("unchecked")
+	static ArrayList<Integer>[] leaf = (ArrayList<Integer>[]) new ArrayList[maxn];
 	
 	public static void main(String[] args) {
 		
@@ -44,6 +46,7 @@ public class uva1267 {
 			System.out.println(slove());
 			
 		}
+		sc.close();
 	}
 	
 	static void getfa(int s, int f, int d) {
@@ -57,6 +60,7 @@ public class uva1267 {
 			fa[t] = s;
 			getfa(t,s,d+1);
 		}
+		
 	}
 	
 	static void dfs(int s, int f, int d) {

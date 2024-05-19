@@ -42,6 +42,7 @@ public class UVA1513 {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 	
 	static int clac(int a) {

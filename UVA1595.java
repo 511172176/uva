@@ -48,7 +48,7 @@ public class UVA1595 {
 				System.out.println("YES");
 		}
 		
-		
+		sc.close();
 	}
 
 }
