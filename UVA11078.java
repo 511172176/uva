@@ -15,11 +15,11 @@ public class UVA11078 {
             for(int i=0; i<lst.length; i++)
                 lst[i] = sc.nextInt();
 
-            int max = -999;
-            int i = lst[0]; //i<j
+            int max = Integer.MIN_VALUE;
+            int i = lst[0]; 
             for(int j=1; j<lst.length; j++){
                 max = Math.max(max, i-lst[j]); //i-j
-                i = Math.max(i, lst[j]);
+                i = Math.max(i, lst[j]); //i<j
             }
             System.out.println(max);
         }
